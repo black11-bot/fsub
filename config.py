@@ -10,13 +10,13 @@ from logging.handlers import RotatingFileHandler
 
 load_dotenv("config.env")
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8159340701:AAHwpXfsSupjq5cJB_nQi-3AExPlsJ5CqgA")
 
-APP_ID = int(os.getenv("APP_ID", "28653571"))
+APP_ID = int(os.getenv("APP_ID", "24180264"))
 
-API_HASH = os.getenv("API_HASH", "eca35c0338b15aa33cc2d5df4a5a7b65")
+API_HASH = os.getenv("API_HASH", "cedea589a0ddbf382b755852409e7bc4")
 
-CHANNEL_DB = int(os.getenv("CHANNEL_DB", ""))
+CHANNEL_DB = int(os.getenv("CHANNEL_DB", "1002575564532"))
 OWNER = os.getenv("OWNER", "excute7")
 PROTECT_CONTENT = strtobool(os.getenv("PROTECT_CONTENT", "True"))
 
@@ -26,13 +26,13 @@ HEROKU_API_KEY = os.getenv("HEROKU_API_KEY", None)
 UPSTREAM_BRANCH = os.getenv("UPSTREAM_BRANCH", "master")
 
 # Database type
-DATABASE_TYPE = os.getenv("DATABASE_TYPE", "")
+DATABASE_TYPE = os.getenv("DATABASE_TYPE", "mongodb+srv://Blackmighty:SIvesh97@*@cluster0.fmihkkx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 # Database
-DB_URL = os.getenv("DB_URL", "")
+DB_URL = os.getenv("DB_URL", "mongodb+srv://Blackmighty:SIvesh97@*@cluster0.fmihkkx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 # Database Name MongoDB
-DB_NAME = os.getenv("DB_NAME", "")
+DB_NAME = os.getenv("DB_NAME", "Blackmighty")
 
 
 FORCE_SUB_ = {}
